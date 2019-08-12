@@ -1,6 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-require('prismjs/themes/prism.css')
+// require('prismjs/themes/prism-ghcolors.css')
+// require('prismjs/themes/prism.css')
+require('prismjs/themes/prism-xonokai.css')
+// require('prismjs/themes/prism-cb.css')
 
 const Body = styled.div`
   margin: 0 auto;
@@ -13,6 +16,7 @@ const Body = styled.div`
     line-height: 1.25;
     margin: 0 0 1rem 0;
     text-transform: capitalize;
+    font-family: 'Quicksand';
   }
 
   h1 {
@@ -26,6 +30,8 @@ const Body = styled.div`
   }
 
   p {
+    font-family: 'Quicksand', 'Noto Sans JP';
+    /* font-family: 'Noto Sans JP'; */
     line-height: 1.6;
     margin: 0 0 2em 0;
   }
@@ -87,13 +93,18 @@ const Body = styled.div`
     padding: 0 0 0 0.5em;
   }
 
-  pre {
+  /* pre {
     margin: 0 0 2em 0;
     border-radius: 2px;
     background: ${props => props.theme.colors.secondary} !important;
     span {
       background: inherit !important;
     }
+  } */
+
+  pre {
+    border-radius: 0px !important;
+
   }
 
   table {

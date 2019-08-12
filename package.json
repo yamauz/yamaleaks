@@ -58,6 +58,7 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-gatsby-standard": "^2.2.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "prettier": "^1.18.2",
     "stylelint": "10.1.0",
     "stylelint-config-prettier": "^5.2.0",
