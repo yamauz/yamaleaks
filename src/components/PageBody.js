@@ -1,9 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-// require('prismjs/themes/prism-ghcolors.css')
-// require('prismjs/themes/prism.css')
-require('prismjs/themes/prism-xonokai.css')
-// require('prismjs/themes/prism-cb.css')
+require('./../styles/prism-xonokai.css')
 
 const Body = styled.div`
   margin: 0 auto;
