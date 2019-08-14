@@ -101,13 +101,15 @@ const Body = styled.div`
 
   pre {
     border-radius: 0px !important;
-
+    margin-top: 10px ;
+    margin-bottom: 10px;
   }
 
   table {
     display: block;
     overflow: auto;
     width: 100%;
+    font-family: 'Quicksand', 'Noto Sans JP';
   }
 
   table th {
