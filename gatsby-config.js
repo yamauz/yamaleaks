@@ -74,6 +74,7 @@ module.exports = {
           ? contentfulConfig.development
           : contentfulConfig.production,
     },
+    'gatsby-plugin-robots-txt',
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
